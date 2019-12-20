@@ -34,6 +34,9 @@
                                         <rect key="frame" x="0.0" y="80.333333333333343" width="174" height="32"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <state key="normal" title="Continuar"/>
+                                        <connections>
+                                            <action selector="SetPrueba1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jct-TH-nlt"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -51,6 +54,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="Prueba1" destination="qzn-GC-U1W" id="AXT-JZ-yhJ"/>
+                        <outlet property="TestTextField" destination="bo2-bO-PF1" id="qVa-uu-xCk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
